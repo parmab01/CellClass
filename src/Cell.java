@@ -63,7 +63,7 @@ public class Cell {
         if (id >= 0)
             this.id = id;
     }
-    private void interactNeighbors(ArrayList<Cell> neighbors){
+    public void interactNeighbors(ArrayList<Cell> neighbors){
     }
 }
 
