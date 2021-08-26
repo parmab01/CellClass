@@ -1,11 +1,14 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class Cell {
     private int x;
     private int y;
     private int strength;
     private int id;
-
+    private HashMap<String, Integer> chemicals=new HashMap<>();
+    private HashSet<String> signalMolecules=new HashSet<>();
 
     public Cell() {
         this.x = 0;
@@ -60,7 +63,7 @@ public class Cell {
         if (id >= 0)
             this.id = id;
     }
-    public void interactNeighbors(ArrayList<Cell> s){
+    private void interactNeighbors(ArrayList<Cell> neighbors){
     }
 }
 
