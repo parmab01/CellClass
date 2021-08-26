@@ -8,6 +8,11 @@ public class Cell {
 
 
     public Cell() {
+        this.x = 0;
+        this.y =0;
+        this.strength = 0;
+        this.id = 0;
+
     }
 
     public Cell(int x, int y, int strength, int id) {
